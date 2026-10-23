@@ -7,7 +7,7 @@ if [[ ! -f /opt/openfoam14/etc/bashrc ]]; then
 fi
 set +u
 source /opt/openfoam14/etc/bashrc
-set -u
+## OpenFOAM's shell aliases use optional positional arguments; leave nounset disabled.
 : "${FOAM_TUTORIALS:?OpenFOAM environment lacks FOAM_TUTORIALS}"
 for exe in foamRun blockMesh checkMesh foamVersion;do
  command -v "$exe" >/dev/null || { echo "BLOCKED: missing $exe" >&2;exit 2; }
