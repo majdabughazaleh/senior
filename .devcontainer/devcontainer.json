@@ -1,0 +1,14 @@
+{
+  "name": "H100 jet cooling | experimental OpenFOAM Foundation 14",
+  "build": {
+    "dockerfile": "Dockerfile"
+  },
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "ms-python.python"
+      ]
+    }
+  },
+  "postCreateCommand": "python3 -m unittest discover -s tests -v"
+}
