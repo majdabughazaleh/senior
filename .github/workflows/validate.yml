@@ -1,0 +1,13 @@
+name: Evidence arithmetic and manifest checks
+on:
+  push:
+  pull_request:
+jobs:
+  validate:
+    runs-on: ubuntu-24.04
+    steps:
+      - uses: actions/checkout@v4
+      - name: Run reference unit tests (no CFD claims)
+        run: python3 -m unittest discover -s tests -v
+      - name: Print reference hydraulic quantities
+        run: python3 scripts/audit_reference.py
