@@ -1,0 +1,45 @@
+{
+  "description": "Input gate: no unverified H100-specific inputs are assigned numerical values. This is not an executable CFD case.",
+  "target_gpu": "NVIDIA H100 SXM",
+  "package_power_W": {
+    "value": 700,
+    "source": "NV-H100",
+    "description": "configurable maximum *package* TDP, not a die-only heat source"
+  },
+  "h100_mounting_interface": {
+    "value": null,
+    "source": null
+  },
+  "h100_heat_flux_map": {
+    "value": null,
+    "source": null
+  },
+  "h100_die_temperature_limit": {
+    "value": null,
+    "source": null
+  },
+  "h100_hbm_temperature_limit": {
+    "value": null,
+    "source": null
+  },
+  "thermal_contact_resistances": {
+    "value": null,
+    "source": null
+  },
+  "coolant_name_and_composition": {
+    "value": null,
+    "source": null
+  },
+  "coolant_inlet_temperature_K": {
+    "value": null,
+    "source": null
+  },
+  "coolant_flow_or_pump_curve": {
+    "value": null,
+    "source": null
+  },
+  "temperature_dependent_material_properties": {
+    "value": null,
+    "source": null
+  }
+}

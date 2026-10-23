@@ -1,0 +1,11 @@
+{
+  "reference": "IAPWS-IF97 / IAPWS R12-08 as tabulated by The Engineering Handbook, 20 degC, 1.013 bar absolute",
+  "url": "https://enghandbook.com/thermodynamic-calculators/water/",
+  "note": "Third-party IAPWS implementation, not endorsed by IAPWS. Values rounded as published. Use for reference energy-balance calculations only; not generic H100 coolant properties.",
+  "temperature_C": 20.0,
+  "pressure_bar_abs": 1.013,
+  "density_kg_m3": 998.206,
+  "cp_J_kg_K": 4185.0,
+  "dynamic_viscosity_Pa_s": 0.0010016,
+  "thermal_conductivity_W_m_K": 0.59801
+}
